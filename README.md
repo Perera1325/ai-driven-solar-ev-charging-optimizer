@@ -49,10 +49,13 @@ This project demonstrates a full ML + RL + Backend + Dashboard + Docker pipeline
 🏗 Architecture
 
 Solar Dataset ──► Solar ML Model ─┐
-
-&nbsp;                               ├──► Digital Twin ─► RL Agent ─► Decisions
-
+                                ├──► Digital Twin ─► RL Agent ─► Decisions
 EV Dataset ─────► EV ML Model ───┘
+
+FastAPI Backend exposes predictions & simulation
+Streamlit Dashboard visualizes results
+Docker Compose runs everything
+
 
 
 
